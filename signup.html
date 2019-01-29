@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="sign_up.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<ul>
+    <li><a href="index.html">Home</a></li>
+</ul>
+<form action="action_page.php" style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Politico</h1>
+      <h4>Please fill in this form to create account.</h4>
+      <hr>
+  
+      <label for="lastname">Last name</label>
+      <input type="text" placeholder="Last name" name="lastname" required>
+      <label for="firstname">First name</label>
+      <input type="text" placeholder="First name" name="firstname" required>
+      <label for="othername">Other name</label>
+      <input type="text" placeholder="Other name" name="othername" required>
+      <label for="othername">Phone number</label>
+      <input type="text" placeholder="Phone number" name="phone number" required>
+      <label for="email">Email</label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw">Password</label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat">Repeat Password</label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+  
+      <label>
+        Upload passport<input type="file" id="input">
+      </label>
+  
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+  
+      <div class="clearfix">
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+  </html>

@@ -1,0 +1,130 @@
+html body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-color:#f2f2f2;
+    padding: 0;
+    margin: 0px;
+  }
+  .column-layout {
+    max-width: 1400px;
+    background-color: #fff;
+    margin: 40px auto 0 auto;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+  }
+  .what-is-politico{
+    flex: 2;
+  }
+  .voter-education {
+    flex: 1;
+    margin-left: 10px;
+    
+  }
+  .news {
+    flex: 1;
+    margin-left: 10px;
+  }
+  header {
+      background-color: #f2f2f2;
+      text-align: center;
+      margin: 0;
+      padding: 20px;
+      color: 	#006135;
+      min-height: 70px;
+      border-bottom: white 3px solid;
+  }
+    
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #006135;
+    }
+    
+    li {
+      float: left;
+      display: inline;
+    }
+    /* float login and sign up to right */
+    .floatright{
+      float: right;
+      display: inline;
+    }
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+   
+    
+    li a:hover:not(.active) {
+      background-color: #313131;
+    }
+    
+  
+    /* signup button at the body */
+    button {
+      background-color:#006135;
+      color: white;
+      padding: 14px 10px;
+      border: none;
+      cursor: pointer;
+      width: 30%;
+      border-radius: 10px;
+      font-size: 0.9rem;
+    }
+  
+    #button1 a{ 
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+  /* footer properties */
+    footer {
+        background-color: #006135;
+        color: #fff;
+        font-size: 13px;
+        line-height: 18px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+  
+  
+    /* add space between the footer links */
+      footer ul li{
+      margin-left: 100px; 
+    }
+  
+    @media screen and (max-width: 768px) {
+          nav ul li{
+          float: none;
+          text-align: center;
+          display: block;
+          width: 100%;
+          border-bottom: white 3px solid;
+          margin: 0;
+        }
+        footer ul li{
+          float: none;
+          text-align: center;
+          display: block;
+          width: 100%;
+        }
+      
+  
+        .column-layout{
+          text-align: center;
+          flex-direction: column;
+          width: 100%;
+        }
+        
+    }
+  

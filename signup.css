@@ -1,0 +1,129 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    color: #006135;
+}
+h4 {
+  text-align: center;
+}
+form {
+    height: 60rem;
+    border-radius: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #006135;
+}
+
+li {
+  float: left;
+  display: inline;
+}
+/* float login and sign up to right */
+.floatright{
+  float: right;
+  display: inline;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color:#006135;;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+a{
+  text-decoration: none;
+}
+.clearfix button{
+  margin-left: 150px;
+  border-radius: 10px;
+}
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+    display: block;
+  }
+  .container button{
+    font-size: 0.5em;
+    display: block;
+    width: 50%;
+  }
+  .clearfix button{
+    margin-left: 80px;
+  }
+  form input[type=text]{
+    width: 100px;
+    display: block;
+  }
+  form input[type=password]{
+    width: 100px;
+    display: block;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+}
